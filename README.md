@@ -1,3 +1,29 @@
+## NestJS Assessment Submission for Checkscores
+This is a simple backend application built with NestJS that includes a simple REST API, implements caching, and provides real-time chat functionality using Socket.IO. It also includes a basic authentication system (mocked login) and user profile management with a cached profile picture feature.
+
+### How To Use:
+You can start interacting with the project following any of these steps (in any order):
+  - Visit the solution link: 
+  - To interact with the endpoints directly, see this simple Postman documentation: https://documenter.getpostman.com/view/23438041/2sB2qUo5CC
+  - To open the simple chat page, vist here: You can open up to tabs/windows with this same link to imitiate 2 different people chatting with each other. See screenshot of demo below:
+
+![Screenshot showing demo of chat feature](chat_demo.png)
+
+### Tech Used:
+- NestJS
+- Express, TypeScript
+- Socket.io
+- In-memory Cache
+- Postman
+- HTML, CSS
+
+### **Looking forward to collaborate and discuss on this!**
+
+
+PS: See the rest part of the doc that includes the NestJS setup below.
+
+-----
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
