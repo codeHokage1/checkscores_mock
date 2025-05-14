@@ -20,7 +20,7 @@ You can start interacting with the project following any of these steps (in any 
 ### **Looking forward to collaborate and discuss on this!**
 
 
-PS: See the rest part of the doc that includes the NestJS setup below.
+PS: See below for the (remaining) details on the NestJS setup
 
 -----
 
