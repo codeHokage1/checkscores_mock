@@ -20,7 +20,7 @@ export class ProfileService {
       profilePicture: `https://randomuser.me/api/portraits/lego/${Math.floor(Math.random() * 10)}.jpg`,
     };
 
-    await this.cacheManager.set(cacheKey, JSON.stringify(profile), 5000); // 5 seconds TTL
+    await this.cacheManager.set(cacheKey, JSON.stringify(profile), 5000);
     return profile;
   }
 }
