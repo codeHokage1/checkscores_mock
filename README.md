@@ -18,7 +18,7 @@ You can start interacting with the project following any of these steps (in any 
 - Postman
 - HTML, CSS
 
-### **Looking forward to collaborate and discuss on this!**
+### **Looking forward to collaborating and discussing on this!**
 
 
 PS: See below for the (remaining) details on the NestJS setup
