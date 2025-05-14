@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Socket.IO Chat</title>
+  </head>
+  <body>
+    <h1>Checkscores NestJS Dev Assessment - by Farhan Sodiq</h1>
+    <h2>Simple Chat (With WebSockets)</h2>
+    <input type="text" id="messageInput" placeholder="Enter message" />
+    <button onclick="sendMessage()">Send</button>
+
+    <ul id="messages"></ul>
+
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+    <script>
+      const socket = io('http://localhost:3000');
+
+      // Display connection message
+      socket.on('connected', (data) => {
+        const messageList = document.getElementById('messages');
+        const listItem = document.createElement('li');
+        listItem.textContent = data.message;
+        messageList.appendChild(listItem);
+      });
+
+      // Display disconnection message
+      socket.on('disconnected', (data) => {
+        const messageList = document.getElementById('messages');
+        const listItem = document.createElement('li');
+        listItem.textContent = data.message;
+        messageList.appendChild(listItem);
+      });
+
+      // Display incoming messages
+      socket.on('message', (data) => {
+        const messageList = document.getElementById('messages');
+        const listItem = document.createElement('li');
+        listItem.textContent = `Client ${data.clientId}: ${data.message}`;
+        messageList.appendChild(listItem);
+      });
+
+      function sendMessage() {
+        const message = document.getElementById('messageInput').value;
+        if (message.trim() !== '') {
+          socket.emit('message', message);
+          document.getElementById('messageInput').value = '';
+        }
+      }
+    </script>
+  </body>
+</html>
