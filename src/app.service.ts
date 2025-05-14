@@ -60,7 +60,7 @@ export class AppService {
           <h2>Checkscore NestJS Dev Assessment</h2>
 
           <p>To see the API documentation, please visit the <a href="https://documenter.getpostman.com/view/23438041/2sB2qUo5CC" target="_blank">Postman Doc</a></p>
-          <p>To open the chat page, please visit the <a href="http://localhost:3000/chat.html" target="_blank">Chat Page</a></p>
+          <p>To open the chat page, please visit the <a href="https://checkscores-test.onrender.com/chat.html" target="_blank">Chat Page</a></p>
           <p>See the full Github repository at <a href="https://github.com/codeHokage1/checkscores_mock" target="_blank">GitHub</a></p>
           
           <small>Built by Farhan Sodiq</small>

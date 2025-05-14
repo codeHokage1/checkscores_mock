@@ -3,9 +3,10 @@ This is a simple backend application built with NestJS that includes a simple RE
 
 ### How To Use:
 You can start interacting with the project following any of these steps (in any order):
-  - Visit the solution link: 
+  - Visit the deployed solution: https://checkscores-test.onrender.com
   - To interact with the endpoints directly, see this simple Postman documentation: https://documenter.getpostman.com/view/23438041/2sB2qUo5CC
-  - To open the simple chat page, vist here: You can open up to tabs/windows with this same link to imitiate 2 different people chatting with each other. See screenshot of demo below:
+  - To open the simple chat page, vist here: https://checkscores-test.onrender.com/
+  - You can open up to tabs/windows with this same link to imitiate 2 different people chatting with each other. See screenshot of demo below:
 
 ![Screenshot showing demo of chat feature](chat_demo.png)
 
